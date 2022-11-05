@@ -13,7 +13,7 @@
 * Check_the_API task: check the API is exists or not
 * Extract_data task: Extract data from API and save it as csv file
 * Branch task: Identify the next task based on day of week. If the day is weekdays then move to 'spark_process_weekdays' task, otherwise move to 'spark_process_weekends' task
-* spark_process_weekdays task: Combine the new_data we that just extracted in previous step with the full_data to create the new full_data, then processing it and save the result as csv file. The new full_data is going to be saved too.
+* spark_process_weekdays task: Combine the new_data we just extracted in previous step with the full_data to create the new full_data, then processing it and save the result as csv file. The new full_data is going to be saved too.
 * spark_process_weekends task: We just combine the new_data with the full_data to create the new full_data and save it.
 * Update_time task: Insert new date into date_dim table
 * Update_data task: Insert new prosessed data into to data_fact table
