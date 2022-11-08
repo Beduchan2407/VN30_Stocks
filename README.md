@@ -10,6 +10,7 @@
 * The full_data is the historical close price from 2019 to yesterday. 
 ## Database
 ![Database](Image/Database.png)
+We will use PostgreSQl as the database
 ## ETL Pipline
 We use Airflow for building data pipline
 ![DAG](Image/Dag.jpg)
